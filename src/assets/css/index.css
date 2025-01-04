@@ -4,66 +4,134 @@
 
 @keyframes orb {
     0%, 100% {
-      transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
     }
     50% {
-      transform: translateY(-20px) scale(1.1);
+        transform: translateY(-20px) scale(1.1);
     }
-  }
-  
-  @keyframes slideInRight {
+}
+
+@keyframes slideInRight {
     0% {
-      transform: translateX(100px);
-      opacity: 0;
+        transform: translateX(100px);
+        opacity: 0;
     }
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  .grid-container {
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-  }
-  
-  .course-item {
+}
+
+.course-item {
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .course-image {
+}
+
+.course-image {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-  
-  .course-title {
+}
+
+.course-title {
     text-align: center;
     font-size: 1.25rem;
     padding: 10px;
-    background-color: #f97316;
     color: white;
-  }
-  
-  /* Responsive styling: */
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
     .grid-container {
-      grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .grid-container {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .grid-container {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
+}
+
+
+.cubep {
+  width: 160px; /* Set width */
+  height: 160px; /* Set height to be equal to width */
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear; /* Increased the time to make it slower */
+}
+
+.cubep .sidep {
+  position: absolute;
+  width: 160px; /* Set width */
+  height: 160px; /* Set height to be equal to width */
+  background: #d2b92b;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  transition: transform 0.5s ease;
+}
+
+.cubep .frontp {
+  transform: rotateY(0deg) translateZ(80px); /* Adjusted translateZ to make cube appear 3D */
+}
+
+.cubep .backp {
+  transform: rotateY(180deg) translateZ(80px);
+}
+
+.cubep .leftp {
+  transform: rotateY(-90deg) translateZ(80px);
+}
+
+.cubep .rightp {
+  transform: rotateY(90deg) translateZ(80px);
+}
+
+.cubep .topp {
+  transform: rotateX(90deg) translateZ(80px);
+}
+
+.cubep .bottomp {
+  transform: rotateX(-90deg) translateZ(80px);
+}
+
+@keyframes rotateCube {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
   }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.perspective {
+  perspective: 1500px;
+}
+
+.animate-spin-slow {
+  animation: spin 20s linear infinite; /* Slowed down further */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

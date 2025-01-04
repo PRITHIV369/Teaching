@@ -19,30 +19,30 @@ const WorksCarousel = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + works.length) % works.length);
   };
   useEffect(() => {
-    const interval = setInterval(nextSlide, 10000); 
+    const interval = setInterval(nextSlide, 6000); 
     return () => clearInterval(interval); 
   }, []);
 
   return (
-    <div className="relative bg-gradient-to-br from-orange-100 via-yellow-50 to-orange-200 px-6">
-      <h2 className="md:text-5xl text-3xl text-center font-bold text-orange-700 mb-8">
+    <div className="relative px-6">
+      <h2 className="text-2xl text-center font-bold text-yellow-700 mb-8 mt-8">
         My Works
       </h2>
       <div className="relative flex justify-center items-center">
         <button
           onClick={prevSlide}
-          className="absolute left-4 text-white bg-orange-400 rounded-full p-2"
+          className="absolute left-4 text-white bg-yellow-700 rounded-full p-2"
         >
           &#10094;
         </button>
         <img
           src={works[currentIndex]}
           alt={`Work ${currentIndex + 1}`}
-          className="w-full md:h-[25rem] h-[20rem] max-w-3xl rounded-lg shadow-xl"
+          className="w-full md:h-[25rem] h-[15rem] max-w-3xl rounded-lg shadow-xl"
         />
         <button
           onClick={nextSlide}
-          className="absolute right-4 text-white bg-orange-400 rounded-full p-2"
+          className="absolute right-4 text-white bg-yellow-700 rounded-full p-2"
         >
           &#10095;
         </button>

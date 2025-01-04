@@ -3,9 +3,9 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-600 text-white py-6 mt-10">
+    <footer className="bg-yellow-700 text-white py-6 mt-10">
       <div className="container mx-auto flex flex-col items-center">
-        <h3 className="text-2xl font-bold mb-4">Follow Us</h3>
+        <p className="text-2xl font-bold mb-4">Follow Us</p>
         <div className="flex space-x-6 mb-4">
           <a
             href="https://www.facebook.com"
