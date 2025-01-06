@@ -4,13 +4,23 @@ const courses = [
   { title: "Course 1", image: sanskrit },
   { title: "Course 2", image: sanskrit },
   { title: "Course 3", image: sanskrit },
-  { title: "Course 4", image: sanskrit },
+  { title: "Course 5", image: sanskrit },
+  { title: "Course 6", image: sanskrit },
+  { title: "Course 7", image: sanskrit },
+  { title: "Course 8", image: sanskrit },
+  { title: "Course 9", image: sanskrit },
+  { title: "Course 10", image: sanskrit },
+  { title: "Course 11", image: sanskrit },
+  { title: "Course 12", image: sanskrit },
+  { title: "Course 13", image: sanskrit },
+  { title: "Course 14", image: sanskrit },
+  { title: "Course 15", image: sanskrit },
 ];
 
 const Courses = () => {
   return (
-    <div className="courses-container">
-      <h2 className="text-center text-2xl font-bold my-8 text-yellow-700">Our Courses</h2>
+    <div className="course-container">
+      <h2 className="text-center w-screen text-2xl font-bold my-8 text-yellow-700">Our Courses</h2>
       <div className="grid-container">
         {courses.map((course, index) => (
           <div key={index} className="course-item">
