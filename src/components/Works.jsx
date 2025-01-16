@@ -24,7 +24,9 @@ const WorksCarousel = () => {
   }, []);
 
   return (
-    <div className="relative px-6">
+    <div 
+    id = 'works'
+    className="relative px-6">
       <h2 className="text-2xl text-center font-bold text-yellow-700 mb-8 mt-8">
         My Works
       </h2>
