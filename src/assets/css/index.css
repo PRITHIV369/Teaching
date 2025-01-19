@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,22 +23,35 @@
     }
 }
 
+.course-container{
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    display: flex;
     padding: 20px;
+    overflow-x: scroll;
+    height: fit-content;
+    width: 75%;
+    scrollbar-width: none;
+    z-index: 10px;
 }
 
 .course-item {
     border-radius: 10px;
     overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    flex-shrink: 0;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .course-image {
-    width: 100%;
+    width: auto;
     height: auto;
     object-fit: cover;
 }
@@ -49,45 +63,26 @@
     color: white;
 }
 
-@media (max-width: 1024px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-
 .cubep {
-  width: 160px; /* Set width */
-  height: 160px; /* Set height to be equal to width */
+  width: 160px; 
+  height: 160px; 
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 10s infinite linear; /* Increased the time to make it slower */
+  animation: rotateCube 10s infinite linear; 
 }
 
 .cubep .sidep {
   position: absolute;
-  width: 160px; /* Set width */
-  height: 160px; /* Set height to be equal to width */
+  width: 160px; 
+  height: 160px; 
   background: #d2b92b;
   border: 2px solid #ddd;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
   transition: transform 0.5s ease;
 }
 
 .cubep .frontp {
-  transform: rotateY(0deg) translateZ(80px); /* Adjusted translateZ to make cube appear 3D */
+  transform: rotateY(0deg) translateZ(80px); 
 }
 
 .cubep .backp {
@@ -124,7 +119,7 @@
 }
 
 .animate-spin-slow {
-  animation: spin 20s linear infinite; /* Slowed down further */
+  animation: spin 20s linear infinite; 
 }
 
 @keyframes spin {
