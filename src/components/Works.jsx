@@ -21,8 +21,8 @@ const WorksCarousel = () => {
   }, []);
 
   return (
-    <div className="relative px-6 py-12 bg-gradient-to-br from-white via-gray-100 to-yellow-50">
-      <h2 className="text-3xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-700 mb-8 drop-shadow-lg">
+    <div className="relative px-6">
+      <h2 className="text-2xl text-center font-bold text-yellow-700 mb-8 mt-8">
         My Works
       </h2>
       <div className="relative flex justify-center items-center">

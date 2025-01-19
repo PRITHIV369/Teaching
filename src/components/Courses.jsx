@@ -21,6 +21,7 @@ const courses = [
 
 const Courses = () => {
   return (
+<<<<<<< HEAD
     <div className="course-container relative overflow-auto">
       <Helmet>
         <meta charSet="UTF-8" />
@@ -55,6 +56,11 @@ const Courses = () => {
         Courses
       </h2>
       <div className="grid-container overflow-auto max-h-[70vh]">
+=======
+    <div className="course-container">
+      <h2 className="text-center w-screen text-2xl font-bold my-8 text-yellow-700">Our Courses</h2>
+      <div className="grid-container">
+>>>>>>> 3394fd78d307f722a63b208791642620509c4d33
         {courses.map((course, index) => (
           <div key={index} className="course-item">
             <img src={course.image} alt={course.title} className="course-image" />
