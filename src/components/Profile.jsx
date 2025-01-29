@@ -2,10 +2,11 @@ import React from "react";
 import pic1 from "../assets/img/pic1.jpg";
 import pic2 from "../assets/img/pic2.jpeg";
 import pic3 from "../assets/img/pic3.jpeg";
+import "../assets/css/common.css";
 
 const Profile = () => {
   return (
-    <div className="relative bg-white px-6 overflow-hidden flex md:items-center items-start justify-center">
+    <div id="profile" className="relative bg-white px-6 overflow-hidden flex md:items-center items-start justify-center">
       <div className="grid md:grid-cols-2 md:gap-12 gap-0 items-center max-w-7xl mx-auto">
         <div className="relative flex justify-center">
       <div className="cubep md:my-60 my-20">
@@ -21,7 +22,7 @@ const Profile = () => {
           <h2 className="text-2xl md:text-5xl font-bold text-yellow-700 leading-tight mb-4 text-center">
             Sanskrit Teacher Here,
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed text-justify">
+          <p className="text-gray-700 text-lg leading-relaxed text-justify bg-white shadow-md- shadow-white">
             Our Sanskrit teacher is a passionate educator with a deep love for
             the ancient language. With years of experience and a unique teaching
             style, they make learning Sanskrit engaging and enriching for every
