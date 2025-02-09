@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="text-2xl font-extrabold tracking-wide text-yellow-700 hover:text-yellow-600 transition duration-300 ease-in-out">
-              Sanskrit
+              Avyukth
             </div>
           </div>
           <div className="hidden md:flex space-x-8">
