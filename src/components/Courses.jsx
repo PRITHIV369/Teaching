@@ -7,7 +7,7 @@ const courses = [
   { title: "Pravesha (level 2) Exam Preparation - ₹1500", image: sanskrit },
   { title: "Parichaya (level 3) Exam Preparation - ₹1500", image: sanskrit },
   { title: "Siksha (level 4) Exam Preparation - ₹1500", image: sanskrit },
-  { title: "Kovida (level 5)Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Kovida (level 5) Exam Preparation - ₹1500", image: sanskrit },
   { title: "Vishnu Sahasranamam slokas - ₹1000", image: sanskrit },
   { title: "Lalitha Sahasranamam slokas - ₹1000", image: sanskrit },
   { title: "Bagavathgita (all chapters with meaning) - ₹1000", image: sanskrit },
