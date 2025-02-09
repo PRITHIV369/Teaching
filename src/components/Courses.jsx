@@ -2,20 +2,20 @@ import React from "react";
 import sanskrit from "../assets/img/sanskrit.jpeg";
 import "../assets/css/common.css"; 
 const courses = [
-  { title: "Course 1", image: sanskrit },
-  { title: "Course 2", image: sanskrit },
-  { title: "Course 3", image: sanskrit },
-  { title: "Course 5", image: sanskrit },
-  { title: "Course 6", image: sanskrit },
-  { title: "Course 7", image: sanskrit },
-  { title: "Course 8", image: sanskrit },
-  { title: "Course 9", image: sanskrit },
-  { title: "Course 10", image: sanskrit },
-  { title: "Course 11", image: sanskrit },
-  { title: "Course 12", image: sanskrit },
-  { title: "Course 13", image: sanskrit },
-  { title: "Course 14", image: sanskrit },
-  { title: "Course 15", image: sanskrit },
+  { title: "Subothini", image: sanskrit },
+  { title: "Pravesha", image: sanskrit },
+  { title: "Parichaya", image: sanskrit },
+  { title: "Siksha", image: sanskrit },
+  { title: "Kovida", image: sanskrit },
+  { title: "Vishnu Sahasranamam - slokas", image: sanskrit },
+  { title: "Lalitha Sahasranamam - slokas ", image: sanskrit },
+  // { title: "Course 9", image: sanskrit },
+  // { title: "Course 10", image: sanskrit },
+  // { title: "Course 11", image: sanskrit },
+  // { title: "Course 12", image: sanskrit },
+  // { title: "Course 13", image: sanskrit },
+  // { title: "Course 14", image: sanskrit },
+  // { title: "Course 15", image: sanskrit },
 ];
 
 const Courses = () => {
