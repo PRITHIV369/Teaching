@@ -1,7 +1,8 @@
 import React from "react";
 import pic1 from "../assets/img/pic1.jpg";
-import pic2 from "../assets/img/pic2.jpeg";
-import pic3 from "../assets/img/pic3.jpeg";
+import pic2 from "../assets/img/pic2.jpg";
+import pic3 from "../assets/img/pic3.jpg";
+import pic3 from "../assets/img/pic4.jpg";
 
 const Profile = () => {
   return (
@@ -12,23 +13,23 @@ const Profile = () => {
         <div className="sidep frontp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep backp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
         <div className="sidep leftp"><img src={pic3} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep rightp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
+        <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
         <div className="sidep topp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep bottomp"><img src={pic3} className="w-[100%] h-[100%]"/></div>
+        <div className="sidep bottomp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
             </div>
         </div>
         <div className="">
           <h2 className="text-2xl md:text-5xl font-bold text-yellow-700 leading-tight mb-4 text-center">
-            Sanskrit Teacher Here,
+            Acharya Anand Here,
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed text-justify">
-            Our Sanskrit teacher is a passionate educator with a deep love for
-            the ancient language. With years of experience and a unique teaching
-            style, they make learning Sanskrit engaging and enriching for every
-            student. Their dedication to preserving this timeless language is
+            I'm a passionate educator with a deep love for
+            the Sanskrit. With years of experience and a unique teaching
+            style, I make learning Sanskrit engaging and enriching for every
+            student. My dedication to preserving this timeless language is
             truly inspiring. Through innovative methods and a supportive approach, 
-            they bring the beauty of Sanskrit literature and culture to life. Join their
-            classes to embark on a journey of knowledge and tradition.
+            I bring the beauty of Sanskrit literature and culture to life. Join my online
+            classes to embark on a journey of knowledge.
           </p>
           <a
             href="https://forms.gle/DW59SFPC56m3BNQ96"
