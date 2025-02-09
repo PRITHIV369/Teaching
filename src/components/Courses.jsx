@@ -2,15 +2,15 @@ import React from "react";
 import sanskrit from "../assets/img/sanskrit.jpeg";
 import "../assets/css/common.css"; 
 const courses = [
-  { title: "Subothini", image: sanskrit },
-  { title: "Pravesha", image: sanskrit },
-  { title: "Parichaya", image: sanskrit },
-  { title: "Siksha", image: sanskrit },
-  { title: "Kovida", image: sanskrit },
+  { title: "Subothini Exam Preparation", image: sanskrit },
+  { title: "Pravesha Exam Preparation", image: sanskrit },
+  { title: "Parichaya Exam Preparation", image: sanskrit },
+  { title: "Siksha Exam Preparation", image: sanskrit },
+  { title: "KovidaExam Preparation", image: sanskrit },
   { title: "Vishnu Sahasranamam - slokas", image: sanskrit },
   { title: "Lalitha Sahasranamam - slokas ", image: sanskrit },
-  // { title: "Course 9", image: sanskrit },
-  // { title: "Course 10", image: sanskrit },
+  { title: "Bagavathgita (all chapters)", image: sanskrit },
+  { title: "Motivational storys", image: sanskrit },
   // { title: "Course 11", image: sanskrit },
   // { title: "Course 12", image: sanskrit },
   // { title: "Course 13", image: sanskrit },
