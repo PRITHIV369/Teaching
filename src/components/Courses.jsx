@@ -2,11 +2,11 @@ import React from "react";
 import sanskrit from "../assets/img/sanskrit.jpeg";
 import "../assets/css/common.css"; 
 const courses = [
-  { title: "Subothini Exam Preparation - ₹1500", image: sanskrit },
-  { title: "Pravesha Exam Preparation - ₹1500", image: sanskrit },
-  { title: "Parichaya Exam Preparation - ₹1500", image: sanskrit },
-  { title: "Siksha Exam Preparation - ₹1500", image: sanskrit },
-  { title: "KovidaExam Preparation - ₹1500", image: sanskrit },
+  { title: "Subothini Exam Preparation - ₹1500     ", image: sanskrit },
+  { title: "Pravesha Exam Preparation - ₹1500      ", image: sanskrit },
+  { title: "Parichaya Exam Preparation - ₹1500      ", image: sanskrit },
+  { title: "Siksha Exam Preparation - ₹1500       ", image: sanskrit },
+  { title: "KovidaExam Preparation - ₹1500     ", image: sanskrit },
   { title: "Vishnu Sahasranamam slokas - ₹1000", image: sanskrit },
   { title: "Lalitha Sahasranamam slokas - ₹1000 ", image: sanskrit },
   { title: "Bagavathgita (all chapters) - ₹1000 ", image: sanskrit },
@@ -20,7 +20,7 @@ const courses = [
 const Courses = () => {
   return (
     <div  className="course-container">
-      <h2 className="text-center w-screen text-2xl font-bold my-8 text-yellow-700">Our Courses</h2>
+      <h2 className="text-center w-screen text-2xl font-bold my-8 text-yellow-700">Courses Available</h2>
       <div id="course" className="grid-container">
         {courses.map((course, index) => (
           <div key={index} className="course-item">
