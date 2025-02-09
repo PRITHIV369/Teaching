@@ -1,20 +1,17 @@
 import React from "react";
 import sanskrit from "../assets/img/sanskrit.jpeg";
-import "../assets/css/common.css"; 
+import "../assets/css/common.css";
 const courses = [
-  { title: "Subothini Exam Preparation - ₹1500     ", image: sanskrit },
-  { title: "Pravesha Exam Preparation - ₹1500      ", image: sanskrit },
-  { title: "Parichaya Exam Preparation - ₹1500      ", image: sanskrit },
-  { title: "Siksha Exam Preparation - ₹1500       ", image: sanskrit },
-  { title: "KovidaExam Preparation - ₹1500     ", image: sanskrit },
-  { title: "Vishnu Sahasranamam slokas - ₹1000", image: sanskrit },
-  { title: "Lalitha Sahasranamam slokas - ₹1000 ", image: sanskrit },
-  { title: "Bagavathgita (all chapters) - ₹1000 ", image: sanskrit },
-  { title: "CBSE Sylabus and Metric Sylabus - ₹1000", image: sanskrit },
   { title: "Sanskrit Basic and slokas classes - ₹1000", image: sanskrit },
-  // { title: "Course 13", image: sanskrit },
-  // { title: "Course 14", image: sanskrit },
-  // { title: "Course 15", image: sanskrit },
+  { title: "Subothini (level 1) Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Pravesha (level 2) Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Parichaya (level 3) Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Siksha (level 4) Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Kovida (level 5)Exam Preparation - ₹1500", image: sanskrit },
+  { title: "Vishnu Sahasranamam slokas - ₹1000", image: sanskrit },
+  { title: "Lalitha Sahasranamam slokas - ₹1000", image: sanskrit },
+  { title: "Bagavathgita (all chapters with meaning) - ₹1000", image: sanskrit },
+  { title: "CBSE Sylabus and Metric Sylabus - ₹1000", image: sanskrit },
 ];
 
 const Courses = () => {
