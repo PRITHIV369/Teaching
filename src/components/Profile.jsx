@@ -10,11 +10,11 @@ const Profile = () => {
       <div className="grid md:grid-cols-2 md:gap-12 gap-0 items-center max-w-7xl mx-auto">
         <div className="relative flex justify-center">
       <div className="cubep md:my-60 my-20">
+        <div className="sidep leftp"><img src={pic3} className="w-[100%] h-[100%]"/></div>
         <div className="sidep frontp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep backp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep leftp"><img src={pic3} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
         <div className="sidep topp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
+        <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
         <div className="sidep bottomp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
             </div>
         </div>
