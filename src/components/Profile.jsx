@@ -7,7 +7,7 @@ import pic4 from "../assets/img/pic4.jpg";
 
 const Profile = () => {
   return (
-    <div className="relative bg-white px-6 overflow-hidden flex md:items-center items-start justify-center">
+    <div id="profile" className="relative bg-white px-6 overflow-hidden flex md:items-center items-start justify-center">
       <div className="grid md:grid-cols-2 md:gap-12 gap-0 items-center max-w-7xl mx-auto">
         <div className="relative flex justify-center">
       <div className="cubep md:my-60 my-20">
@@ -15,8 +15,8 @@ const Profile = () => {
         <div className="sidep frontp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep backp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
         <div className="sidep topp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
         <div className="sidep bottomp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
+        <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
             </div>
         </div>
         <div className="">
