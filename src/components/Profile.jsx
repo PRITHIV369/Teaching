@@ -14,8 +14,8 @@ const Profile = () => {
         <div className="sidep leftp"><img src={pic3} className="w-[100%] h-[100%]"/></div>
         <div className="sidep frontp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep backp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
-        <div className="sidep bottomp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep topp"><img src={pic2} className="w-[100%] h-[100%]"/></div>
+        <div className="sidep bottomp"><img src={pic1} className="w-[100%] h-[100%]"/></div>
         <div className="sidep rightp"><img src={pic4} className="w-[100%] h-[100%]"/></div>
             </div>
         </div>
